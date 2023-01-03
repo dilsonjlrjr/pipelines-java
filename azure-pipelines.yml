@@ -8,6 +8,10 @@ parameters:
   displayName: Succeed or fail
   type: boolean
   default: false
+- name: newparam
+  displayName: Create um new param for the pipeline
+  type: string
+  default: ""
 
 trigger:
 - main
