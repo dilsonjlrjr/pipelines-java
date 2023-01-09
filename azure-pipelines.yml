@@ -3,16 +3,6 @@
 # Add steps that analyze code, save build artifacts, deploy, and more:
 # https://docs.microsoft.com/azure/devops/pipelines/languages/java
 
-parameters:
-- name: succeed
-  displayName: Succeed or fail
-  type: boolean
-  default: false
-- name: newparam
-  displayName: Create um new param for the pipeline
-  type: string
-  default: ""
-
 trigger:
 - main
 
